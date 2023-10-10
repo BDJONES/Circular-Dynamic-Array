@@ -33,8 +33,7 @@ To integrate the Circular Dynamic Array into your C++ project, follow these step
 
 ## Constructors
 The Circular Dynamic Array provides various constructors to accommodate different scenarios and data types through the use of templates:
-
-CDA(): Default constructor.
-CDA(int initialSize): Constructor with an initial size.
-CDA(int s, elmtype init): Constructor with an initial size and a value to populate the array.
-CDA(const CDA& src): Constructor to be used when copying values from another CDA array.
+- CDA(): Default constructor.
+- CDA(int initialSize): Constructor with an initial size.
+- CDA(int s, elmtype init): Constructor with an initial size and a value to populate the array.
+- CDA(const CDA& src): Constructor to be used when copying values from another CDA array.
